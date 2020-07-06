@@ -5,6 +5,6 @@ response.writeHeader(200,{'Context-Type':'text-plain'});
 response.write('<html><body><h1>Kod Denemeleri</h1></body></html>');
 response.end();
 }
-http.createServer(benimFonksiyonum).listen(8005);
+http.createServer(benimFonksiyonum).listen(8010);
 console.log('Sunucu Calisiyor');
 

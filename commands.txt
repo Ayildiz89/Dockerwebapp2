@@ -2,9 +2,9 @@ docker build -t ayildiz89/dockerwebapp2 .
 
 docker images
 
-docker run -p 8005:8080 ayildiz89/dockerwebapp2
+docker run -p 8010:8080 ayildiz89/dockerwebapp2
 
-http://localhost:8005
+http://localhost:8010
 
 
 Issue: Cannot run program - nohup
