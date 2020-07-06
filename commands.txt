@@ -1,8 +1,8 @@
-docker build -t ayildiz89/dockerwebapp .
+docker build -t ayildiz89/dockerwebapp2 .
 
 docker images
 
-docker run -p 8005:8080 ayildiz89/dockerwebapp
+docker run -p 8005:8080 ayildiz89/dockerwebapp2
 
 http://localhost:8005
 
